@@ -69,8 +69,9 @@ section{
     width: 100vw;
 }
 .container{
-    max-width: 1158px; 
+    width: 1158px; 
     margin: auto;
+    padding: 0 15px;
 }
 
 .link{
@@ -98,18 +99,17 @@ ul{
     letter-spacing: 4%;
 }
 
-header{
+.header{
     border: 1px solid var(--accent-color);
-    padding: 24px 156px ;
 }
 
-header .container{
+.header .container{
     max-width: 100%;
     display: flex;
     justify-content: space-between;
 }
 
-header nav{
+.header nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -126,6 +126,7 @@ header nav{
     color: var(--primary-brand-color);
     line-height: 1.17;
     letter-spacing: 0.03em;
+    margin-right: 76px;
 }
 
 .accent-logo{
@@ -143,6 +144,7 @@ header nav{
     text-decoration: none;
     letter-spacing: 0.02em;
     color: var(--dark-color);
+    padding: 24px 0;
 }
 
 .header-menu .nav-item:hover,
@@ -154,7 +156,7 @@ header nav{
     font-style: normal;
 }
 
-.header-contacts ul{
+.header-contacts-ul{
     display: flex;
     justify-content: space-around;
     gap: 40px;
@@ -163,6 +165,7 @@ header nav{
 
 .header-contacts-li{
     letter-spacing: 0.02em;
+    padding: 24px 0;
 }
 
 .header-contacts-li:hover,
