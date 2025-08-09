@@ -228,12 +228,12 @@ main{
     text-align: left;
     flex-direction: row;
     justify-content: space-around;
-    gap: 8px;
+    gap: 24px;
 
 }
 
 .section-policies-list-item{
-    width: calc(100%-72px)/3;
+    width: calc(100%-72px)/4;
 }
 
 .section-policies-list-item-title{
